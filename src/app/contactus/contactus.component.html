@@ -1,0 +1,21 @@
+<section id="contact" class="vh-100 bg-self-green pt-3 d-flex justify-content-center align-items-center">
+    <div class="container  text-center">
+        <h1 class="py-3">CONATCT SECTION</h1>
+        <span class="star"><i class="fa-solid fa-star"></i></span>
+        <div class="row">
+            <form action="" class="w-50 p-3 mx-auto text-lg-start">
+                <div>
+                    <label id="userName"  for="userName">userName :</label>
+                    <input type="text" (input)="showLabel($event)" placeholder="userName" name="userName" class="form-control border-0 border-bottom py-3 position-relative" />
+                    <label id="userAge" for="userAge">userAge : </label>
+                    <input (input)="showLabel($event)" name="userAge" type="text" placeholder="userAge"  class="form-control border-0 border-bottom py-3 position-relative" />
+                    <label id="userEmail" for="userEmail">userEmail : </label>
+                    <input (input)="showLabel($event)" name="userEmail" type="text" placeholder="userEmail"  class="form-control border-0 border-bottom py-3 position-relative" />
+                    <label id="userPassword" for="userPassword">userPassword : </label>
+                    <input (input)="showLabel($event)" name="userPassword" type="text" placeholder="userPassword"  class="form-control border-0 border-bottom py-3 position-relative" />
+                </div>
+                <button class="btn mt-4 text-white" style="background-color: #1abc9c">send Message</button>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+.star::before {
+    content: " ";
+    position: absolute;
+    left: 50px;
+    top: 23px;
+    width: 100px;
+    height: 4px;
+    background-color: aliceblue;
+}
+
+.star::after {
+    content: " ";
+    position: absolute;
+    top: 23px;
+    right: 50px;
+    width: 100px;
+    height: 4px;
+    background-color: aliceblue;
+}

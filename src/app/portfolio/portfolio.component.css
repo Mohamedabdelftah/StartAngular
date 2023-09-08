@@ -1,0 +1,19 @@
+.hover-div{
+    opacity: 0;
+    transition: opacity .4s;
+}
+.card:hover .hover-div{
+    opacity: 1;
+}
+
+
+.plus{
+    font-size: 150px;
+}
+
+
+
+.showImg{
+    z-index: 100;
+    background-color: rgba(81, 83, 197, 0.3);
+}
